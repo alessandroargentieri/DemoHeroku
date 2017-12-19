@@ -8,7 +8,7 @@ import org.hibernate.validator.constraints.NotBlank;
 
 import javax.persistence.*;
 
-@Entity @Table(name="authors") @AllArgsConstructor @NoArgsConstructor @Getter @Setter
+@Entity @Table(name="authors") @AllArgsConstructor @NoArgsConstructor  @Getter @Setter
 public class Author {
 
     @Id @Column(name="ID") @GeneratedValue

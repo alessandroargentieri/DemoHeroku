@@ -17,11 +17,11 @@ public class Book {
     private Integer id;
     @Column(name="TITLE") @NotBlank
     private String title;
-    @Column(name="TITLE") @NotBlank
+    @Column(name="DESCRIPTION") @NotBlank
     private String description;
-    @Column(name="TITLE")
+    @Column(name="DATE_OF_RELEASE")
     private Date dateOfRelease;
-    @Column(name="TITLE") @NotNull
+    @Column(name="AUTHOR") @NotNull
     private int authorId;
 
     @PrePersist
