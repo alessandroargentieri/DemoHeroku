@@ -73,6 +73,7 @@ public class DemoHerokuApplication {
 		return authorDao.findAll();
 	}
 
+	/*
 	@PostConstruct
 	private void fillDatabase(){
 		authorDao.save(new Author(null, "Gino Camarda", "gino@quicktutorialz.com"));
@@ -85,6 +86,7 @@ public class DemoHerokuApplication {
 		bookDao.save(new Book(null, "Versioni della verita", "Saggio giornalistico", null, 2));
 
 	}
+	*/
 
 
 }
